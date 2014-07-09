@@ -1,4 +1,11 @@
 Maeru::Application.routes.draw do
+
+  root :to => 'maerus#index'
+
+  get "/centre_for_research" => "maerus#centre"
+  get "/school_of_engg" => "maerus#school"
+  get "/ollir_thamizh" => "maerus#ollir"
+  get "/job" => "maerus#job"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
