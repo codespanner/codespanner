@@ -168,6 +168,13 @@ line-height: 1.2;
 .main .content .center .center_main{
 width: 50%;
 }
+.main .content .center .center_main *{
+	color: #444;
+}
+.main .content .center .center_main article{
+	font-weight: bold;
+	font-size: 18px;
+}
 .main .content .center .center_right{
 width: 23%;
 } 
