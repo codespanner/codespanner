@@ -115,9 +115,9 @@ margin: 0;
 display: inline-block;
 padding: 12px 15px;
 font-weight: 600;
-letter-spacing: 1.2;
 text-decoration: none;
 border-top: 3px solid transparent;
+font-size: 18px;
 transition:0.2s;
 }
 .main .content .menu a:hover,.main .content .menu .active{
@@ -171,9 +171,18 @@ width: 50%;
 .main .content .center .center_main *{
 	color: #444;
 }
-.main .content .center .center_main article{
-	font-weight: bold;
+.main .content .center .center_main p{
 	font-size: 18px;
+	line-height: 1.4em;
+	text-align: justify;
+	margin: 5px 40px;
+}
+.main .content .center .center_main p:first{
+	margin-top: 30px;
+}
+.main .content .center .center_main article{
+	font-size: 18px;
+	line-height: 1.4em;
 }
 .main .content .center .center_right{
 width: 23%;
@@ -200,6 +209,15 @@ margin-top: -18px;
 margin-top: 50px;
 position: relative;
 left: -35%;
+}
+.main .content .center .center_right .video .preview{
+position: absolute;
+width: 135%;
+top: 40%;
+color: #fff;
+text-align: center;
+font-size: 28px;
+letter-spacing: 0.06em;
 }
 .main .content .center .center_right .video video{
 width: 135%;
