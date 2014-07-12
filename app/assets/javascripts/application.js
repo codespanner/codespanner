@@ -13,3 +13,18 @@
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
+$(document).ready(function() {
+	$(".block > div").css({"opacity":"0"});
+   animateNews();
+} 
+
+function animateNews() {
+	if ($(".slide1").css("opacity") == "0") {
+		$(".slide2").animate({"opacity":"0"},500);
+		$(".slide1").animate({"opacity":"1"},500);
+	} else{
+		$(".slide2").animate({"opacity":"1"},500);
+		$(".slide1").animate({"opacity":"0"},500);
+	};
+	window.setTimeout(function() { animateNews() }, 4000);
+}
