@@ -27,14 +27,14 @@ font-weight: normal;
 font-style: normal;
 }
 body{
-background-color: #5191CD;
-background-image: -webkit-gradient(linear,left top,left bottom,from(#64ABE5),to(#388AC5));
+background: #fff !important;
+/*background-image: -webkit-gradient(linear,left top,left bottom,from(#64ABE5),to(#388AC5));
 background-image: -webkit-linear-gradient(top,#64ABE5,#388AC5);
 background-image: -moz-linear-gradient(top,#64ABE5,#388AC5);
 background-image: -ms-linear-gradient(top,#64ABE5,#388AC5);
 background-image: -o-linear-gradient(top,#64ABE5,#388AC5);
 background-image: linear-gradient(top,#64ABE5,#388AC5);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#64ABE5',EndColorStr='#388AC5');
+filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#64ABE5',EndColorStr='#388AC5');*/
 margin: 0;
 }
 .main{
